@@ -1,9 +1,15 @@
-title: Purva Shah
-#logo: /assets/img/headshot_circle.png
-#description: text below image
-show_downloads: true
+title: Your Site Title
+email: your-email@example.com
+description: >- 
+  A brief description of your site.
+baseurl: "" # Change if using a subpath, e.g., "/my-site"
+url: "https://your-username.github.io" # Update with your GitHub Pages URL
+github_username: your-username
+
+theme: jekyll-theme-forty # Official theme (if available)
+remote_theme: andrewbanchich/forty-jekyll-theme # Use this if it's a remote theme
+
 plugins:
-  - jekyll-feed
-  - jekyll-paginate
+  - jekyll-remote-theme # Ensure GitHub Pages supports remote themes
   - jekyll-sitemap
-#theme: jekyll-theme-minimal
+  - jekyll-seo-tag
